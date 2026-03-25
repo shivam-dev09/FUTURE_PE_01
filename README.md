@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+# Cafe & Bakery Website – AI Generated Project
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+This project is a frontend website for a **cafe and bakery**, created using AI-generated prompts and built with modern web technologies. The goal of this project is to demonstrate how structured prompting can be used to generate functional and well-designed web applications.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Business Chosen
 
-Changes made via Lovable will be committed automatically to this repo.
+**Cafe and Bakery**
+The website is designed to represent a local cafe offering baked goods, beverages, and a cozy customer experience.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Tool Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Lovable (AI-powered development platform)
+* Vite
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn-ui
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Prompt Logic
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The project was generated using structured prompts with the following approach:
 
-# Step 3: Install the necessary dependencies.
-npm i
+* Defined business type (cafe and bakery)
+* Specified target audience and services
+* Included UI requirements (navbar, footer, sections)
+* Focused on clean design and user experience
+* Iteratively refined prompts to improve output
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+This structured prompting helped in generating consistent and usable code.
+
+---
+
+## Project Structure
+
+```
+aroma-di-indi-website/
+│── public/
+│── src/
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── pages/
+│   ├── test/
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Generated Outputs
 
-**Use GitHub Codespaces**
+* Responsive cafe and bakery website UI
+* Structured components (navbar, hero section, menu, footer)
+* Clean and modern design using Tailwind CSS
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## Purpose
 
-This project is built with:
+This project showcases:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Practical use of AI in web development
+* Prompt engineering for structured output
+* Building real-world UI with modern tools
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
